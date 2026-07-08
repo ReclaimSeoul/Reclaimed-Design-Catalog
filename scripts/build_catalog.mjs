@@ -241,6 +241,24 @@ function writeDesignReadmes(designs) {
   }
 }
 
+function buildDesignCard(design) {
+  const tags = design.tags.length
+    ? `<br><sub>${design.tags.map((tag) => `\`${markdownEscape(tag)}\``).join(" ")}</sub>`
+    : "";
+  const author = design.author ? `<br><sub>by ${markdownEscape(design.author)}</sub>` : "";
+  const description = design.description ? `<br>${markdownEscape(design.description)}` : "";
+
+  return [
+    `[![${markdownEscape(design.title)}](${design.thumbnail})](${design.path})`,
+    `<br>**[${markdownEscape(design.title)}](${design.path})**`,
+    description,
+    `<br><sub>\`${markdownEscape(design.id)}\`</sub>`,
+    author,
+    tags,
+    `<br>[design.json](${design.design_url}) / [meta.json](${design.meta_url})`,
+  ].join("");
+}
+
 function buildRootReadme(designs) {
   const systems = groupBySystem(designs);
   const lines = [
@@ -260,19 +278,16 @@ function buildRootReadme(designs) {
     const heading = system.path ? `[${system.name}](${system.path})` : system.name;
     lines.push(`### ${heading}`, "");
 
-    for (const design of system.designs) {
-      const tags = design.tags.length ? ` ${design.tags.map((tag) => `\`${markdownEscape(tag)}\``).join(" ")}` : "";
-      const author = design.author ? ` by ${markdownEscape(design.author)}` : "";
-      lines.push(`#### [${markdownEscape(design.title)}](${design.path})`);
-      lines.push("");
-      lines.push(`[![${markdownEscape(design.title)}](${design.thumbnail})](${design.path})`);
-      lines.push("");
-      if (design.description) lines.push(`${design.description}`, "");
-      lines.push(`\`${markdownEscape(design.id)}\`${author}${tags}`);
-      lines.push("");
-      lines.push(`[design.json](${design.design_url}) | [meta.json](${design.meta_url})`);
-      lines.push("");
+    lines.push("|  |  |");
+    lines.push("|---|---|");
+
+    for (let index = 0; index < system.designs.length; index += 2) {
+      const left = buildDesignCard(system.designs[index]);
+      const right = system.designs[index + 1] ? buildDesignCard(system.designs[index + 1]) : "";
+      lines.push(`| ${left} | ${right} |`);
     }
+
+    lines.push("");
   }
 
   lines.push("## Repository structure", "");
