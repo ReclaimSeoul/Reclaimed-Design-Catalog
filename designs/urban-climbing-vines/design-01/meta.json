@@ -1,0 +1,21 @@
+    {
+  "id": "urban-climbing-vines_design-01",
+  "title": "Thrash Cover Structure",
+  "group": "urban-climbing-vines",
+  "system": {
+    "id": "urban-climbing-vines",
+    "repo": "Reclaimed-Design-Systems",
+    "path": "https://github.com/ReclaimSeoul/Reclaimed-Design-Systems/tree/main/systems/urban-climbing-vines"
+  },
+  "units": "mm",
+  "files": {
+    "thumbnail": "00_thumb.png",
+    "design": "design.json"
+  },
+  "tags": [
+    "wood",
+    "trash",
+    "tiles"
+  ],
+  "description": "A triangulated timber structure with integrated tiles, to be used to hide trash locations."
+}
