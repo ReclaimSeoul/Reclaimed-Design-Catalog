@@ -4,11 +4,9 @@ Design outputs and assembled proposals generated from the Reclaim Seoul design s
 
 ## Available designs
 
-### Group 01
+### Anonymous Coexistence
 
-### Group 02
-
-### Group 03
+### Plastic Chains
 
 ### Test Group
 
@@ -22,6 +20,8 @@ Design outputs and assembled proposals generated from the Reclaim Seoul design s
     <td width="50%" valign="top"></td>
   </tr>
 </table>
+
+### Urban Climbing Vines
 
 ## Repository structure
 
