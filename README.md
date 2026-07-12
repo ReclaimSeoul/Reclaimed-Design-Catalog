@@ -18,24 +18,18 @@ Design outputs and assembled proposals generated from the Reclaim Seoul design s
 <table>
   <tr>
     <td width="50%" valign="top"><a href="designs/plastic-chains/design-01"><img src="designs/plastic-chains/design-01/00_thumb.png" alt="Plastic Chain Pavillion" width="100%"></a><br><strong><a href="designs/plastic-chains/design-01">Plastic Chain Pavillion</a></strong><br>A system frame prototype generated from reclaimed plastic bottles using the bottles chains system.<br><sub><code>plastic-chains_design-01</code></sub><br><sub>Units: <code>mm</code></sub><br><sub><code>plastic</code> <code>bottles</code> <code>Pavillion</code></sub><br><a href="designs/plastic-chains/design-01/design.json">design.json</a> / <a href="designs/plastic-chains/design-01/meta.json">meta.json</a></td>
-    <td width="50%" valign="top"></td>
-  </tr>
-</table>
-
-### Test Group
-
-<table>
-  <tr>
-    <td width="50%" valign="top"><a href="designs/test-group/design-01"><img src="designs/test-group/design-01/00_thumb.png" alt="Chair Frame" width="100%"></a><br><strong><a href="designs/test-group/design-01">Chair Frame</a></strong><br>A chair frame prototype generated from reclaimed plastic bottles using the bottles design system.<br><sub><code>test-group_design-01</code></sub><br><sub>Units: <code>mm</code></sub><br><sub><code>furniture</code> <code>test</code> <code>plastic</code> <code>bottles</code></sub><br><a href="designs/test-group/design-01/design.json">design.json</a> / <a href="designs/test-group/design-01/meta.json">meta.json</a></td>
-    <td width="50%" valign="top"><a href="designs/test-group/design-03"><img src="designs/test-group/design-03/00_thumb.png" alt="Random Test" width="100%"></a><br><strong><a href="designs/test-group/design-03">Random Test</a></strong><br>A random test prototype generated from reclaimed plastic bottles using the plasticbottles design system.<br><sub><code>test-group_design-03</code></sub><br><sub>Units: <code>mm</code></sub><br><sub><code>random</code> <code>test</code> <code>plastic</code> <code>bottles</code></sub><br><a href="designs/test-group/design-03/design.json">design.json</a> / <a href="designs/test-group/design-03/meta.json">meta.json</a></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><a href="designs/test-group/design-02"><img src="designs/test-group/design-02/00_thumb.png" alt="Small Pavillion" width="100%"></a><br><strong><a href="designs/test-group/design-02">Small Pavillion</a></strong><br>A small pavillion prototype generated from reclaimed plastic bottles using the plasticbottles design system.<br><sub><code>test-group_design-02</code></sub><br><sub>Units: <code>mm</code></sub><br><sub><code>pavillion</code> <code>test</code> <code>plastic</code> <code>bottles</code></sub><br><a href="designs/test-group/design-02/design.json">design.json</a> / <a href="designs/test-group/design-02/meta.json">meta.json</a></td>
-    <td width="50%" valign="top"></td>
+    <td width="50%" valign="top"><a href="designs/plastic-chains/design-02"><img src="designs/plastic-chains/design-02/00_thumb.png" alt="Plastic Chain Straight Pavillion" width="100%"></a><br><strong><a href="designs/plastic-chains/design-02">Plastic Chain Straight Pavillion</a></strong><br>A system frame prototype generated from reclaimed plastic bottles using the bottles chains system.<br><sub><code>plastic-chains_design-02</code></sub><br><sub>Units: <code>mm</code></sub><br><sub><code>plastic</code> <code>bottles</code> <code>Pavillion</code></sub><br><a href="designs/plastic-chains/design-02/design.json">design.json</a> / <a href="designs/plastic-chains/design-02/meta.json">meta.json</a></td>
   </tr>
 </table>
 
 ### Urban Climbing Vines
+
+<table>
+  <tr>
+    <td width="50%" valign="top"><a href="designs/urban-climbing-vines/design-01"><img src="designs/urban-climbing-vines/design-01/00_thumb.png" alt="Thrash Cover Structure" width="100%"></a><br><strong><a href="designs/urban-climbing-vines/design-01">Thrash Cover Structure</a></strong><br>A triangulated timber structure with integrated tiles, to be used to hide trash locations.<br><sub><code>urban-climbing-vines_design-01</code></sub><br><sub>Units: <code>mm</code></sub><br><sub><code>wood</code> <code>trash</code> <code>tiles</code></sub><br><a href="designs/urban-climbing-vines/design-01/design.json">design.json</a> / <a href="designs/urban-climbing-vines/design-01/meta.json">meta.json</a></td>
+    <td width="50%" valign="top"></td>
+  </tr>
+</table>
 
 ## Repository structure
 
